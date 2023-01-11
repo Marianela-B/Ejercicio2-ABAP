@@ -1,0 +1,28 @@
+.container.principal{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: decimal;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+@media (width <= 491px){
+    .container.principal{
+        flex-direction: column;
+    }
+    .li2{
+        margin-top: 3rem;
+    }
+}
+
+@media (width > 491px){
+    .container.principal{
+        flex-direction: row;
+    }
+}
